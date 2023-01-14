@@ -10,6 +10,21 @@
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
+@font-face {
+    font-family: Gumela;
+    src: url('../src/assets/fonts/Gumela\ Regular.otf');
+}
+
+* {
+    font-family: "Gumela";
+    font-size: 20px;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
 .App {
     padding: 0.5rem 3.5rem;
     overflow: hidden;
@@ -24,6 +39,8 @@
     color: white;
     font-size: 16px;
     padding: 11px 26px 11px 26px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
 }
 
 .button:hover {
@@ -36,6 +53,5 @@
 @media screen and (max-width: 480px) {
     .App {
         padding: 0.5rem 1rem;
-
     }
 }
