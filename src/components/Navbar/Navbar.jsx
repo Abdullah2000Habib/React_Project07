@@ -18,7 +18,7 @@ return (
                         <li>Testimonials</li>
                     </ul>
                 </div>
-                <button className={`button ${style.nButton }`}>Contact Us</button>
+                <button className={`button ${style.nButton }`}>Contact</button>
             </div>
         </div>
     </>
