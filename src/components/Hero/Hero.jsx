@@ -39,6 +39,9 @@ export default function Hero() {
             <div className={style.div2}>
               <FloatingDiv img={thumbup} txt1="Best Design" txt2="Award"/>
             </div>
+            {/* Blurs Divs */}
+            <div className={`blur ${style.blur1}`}></div>
+            <div className={`blur ${style.blur2}`}></div>
           </div>
         </div>
     </>

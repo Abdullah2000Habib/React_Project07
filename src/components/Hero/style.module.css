@@ -99,3 +99,17 @@
     top: 18rem;
     left: 0;
 }
+
+.blur1 {
+    background: rgb(238, 210, 255);
+    z-index: -9;
+}
+
+.blur2 {
+    background: #c1f5ff;
+    top: 17rem;
+    width: 21rem;
+    height: 11rem;
+    left: 9rem;
+    z-index: -9;
+}
