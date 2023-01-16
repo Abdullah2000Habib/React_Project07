@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from './Contact/Contact';
 import Experience from './Experience/Experience';
+import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
 import Navbar from './Navbar';
 import Portfolio from './Portfolio/Portfolio';
@@ -20,6 +21,7 @@ export default function Home() {
         <Portfolio/>
         <Testimonials/>
         <Contact/>
+        <Footer/>
     </>
   )
 }
