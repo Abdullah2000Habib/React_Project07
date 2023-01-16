@@ -24,13 +24,13 @@
 }
 
 .tBlur1 {
-    left: 38rem;
-    top: 16rem;
+    left: 38rem !important;
+    top: 16rem !important;
 }
 
 .tBlur2 {
-    top: 9rem;
-    left: 0;
+    top: 9rem !important;
+    left: 0 !important;
 }
 
 .testimonial {
