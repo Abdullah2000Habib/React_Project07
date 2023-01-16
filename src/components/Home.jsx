@@ -2,6 +2,7 @@ import React from 'react';
 import Experience from './Experience/Experience';
 import Hero from './Hero/Hero';
 import Navbar from './Navbar';
+import Portfolio from './Portfolio/Portfolio';
 import Services from './Services/Services';
 import Works from './Works/Works';
 
@@ -14,6 +15,7 @@ export default function Home() {
         <Services/>
         <Experience/>
         <Works/>
+        <Portfolio/>
     </>
   )
 }
