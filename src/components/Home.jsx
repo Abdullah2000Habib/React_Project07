@@ -4,6 +4,7 @@ import Hero from './Hero/Hero';
 import Navbar from './Navbar';
 import Portfolio from './Portfolio/Portfolio';
 import Services from './Services/Services';
+import Testimonials from './Testimonials/Testimonials';
 import Works from './Works/Works';
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Experience/>
         <Works/>
         <Portfolio/>
+        <Testimonials/>
     </>
   )
 }
