@@ -17,3 +17,11 @@
     font-family: sans-serif;
     font-size: 16px;
 }
+
+@media screen and (max-width: 480px) {
+    .floatingdiv:nth-of-type(1) {
+        /* display: none; */
+        top: -7rem !important;
+        ;
+    }
+}

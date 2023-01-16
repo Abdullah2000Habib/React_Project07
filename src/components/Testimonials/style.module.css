@@ -57,3 +57,14 @@
 .testimonial>span {
     color: var(--gray);
 }
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 0;
+    }
+
+    .testimonial>img {
+        width: 70px;
+        height: 70px;
+    }
+}

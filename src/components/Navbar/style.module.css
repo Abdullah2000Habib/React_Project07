@@ -47,3 +47,9 @@
 .nButton {
     flex: 2;
 }
+
+@media screen and (max-width: 480px) {
+    .list {
+        display: none;
+    }
+}
