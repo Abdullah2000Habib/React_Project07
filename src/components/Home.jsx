@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './Hero/Hero';
 import Navbar from './Navbar';
+import Services from './Services/Services';
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <>
         <Navbar/>
         <Hero/>
+        <Services/>
     </>
   )
 }
